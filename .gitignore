@@ -58,3 +58,24 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+# Delphi compiler-generated binaries (safe to delete)
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.so
+*.apk
+*.drc
+*.map
+*.dres
+*.rsm
+*.tds
+*.dcu
+*.lib
+*.a
+*.o
+*.ocx
+*.app
+*.dylib
