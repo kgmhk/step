@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStatus : MonoBehaviour
 {
+    private static int EndSceneIndex = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class PlayerStatus : MonoBehaviour
     {
         if (transform.position.y < .0f) {
             print("Die");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(EndSceneIndex);
         }
     }
 }

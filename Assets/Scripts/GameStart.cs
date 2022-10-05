@@ -18,6 +18,7 @@ public class GameStart : MonoBehaviour
     }
 
     public void StartGame() {
+        ScoreManager.instance.stage = 1;
         SceneManager.LoadScene(1);
     }
 }

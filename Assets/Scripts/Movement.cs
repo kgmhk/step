@@ -11,9 +11,9 @@ public class Movement : MonoBehaviour
     private void Update()
     {
         print("oo " + ScoreManager.instance.score);
-        if (ScoreManager.instance.score > 0) {
-            speed += ScoreManager.instance.score * 0.01f;
-        }
+        // if (ScoreManager.instance.score > 0) {
+        //     speed += ScoreManager.instance.score * 0.01f;
+        // }
 
         transform.position = Vector2.MoveTowards(transform.position, waypoints[curWaypointIndex].transform.position, Time.deltaTime * speed);
     }
